@@ -1,0 +1,25 @@
+Example 2:
+
+ex2.seq contains 10 tranlated orfs from
+human chromosome 1.  ex2.pat is a plain
+text file containing a few patterns that
+occur in some of those sequences.  To
+see which sequences are hit by those patterns,
+use the command
+
+prompt> biogrep -p ex2.pat -i ex2.seq -L
+
+This will print the sequences that are hit
+with their labels (due to -L).
+
+To do this using more than one thread (processor)
+use the -x flag, eg.
+
+prompt> biogrep -p ex2.pat -i ex2.seq -L -x2
+
+To write that output to a file ex2.out, use the
+-o flag:
+
+prompt> biogrep -p ex2.pat -i ex2.seq -L -x2 -o ex2.out
+
+

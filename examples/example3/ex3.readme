@@ -1,0 +1,21 @@
+Example 3:
+
+ex3.seq contains DNA sequences from
+upstream of a few genes in yeast and
+ex3.pat contains some patterns.
+
+Notice that
+
+prompt> biogrep  -p ex3.pat -i ex3.seq -L
+
+produces no output.  This is because all
+the patterns are lower case.  Accordingly,
+use the -c flag
+
+prompt> biogrep  -p ex3.pat -i ex3.seq -L -c
+
+Look at the first pattern in ex3.pat.  This
+pattern, gg$, is a regular expression and it
+means "find any sequence that ends in two
+consequtive g's".  There are MANY regex tutorials
+online, try a quick google for 'regular expression'.

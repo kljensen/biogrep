@@ -1,0 +1,12 @@
+Example 1:
+
+ex1.pat is a collection of patterns in 
+Teiresias format.  ex1.seq is a family
+of sequences from the Prosite database.
+
+To recompute ex1.pat in a Teiresias format
+issue the command
+
+promt> biogrep -P ex1.pat -i ex1.seq -T
+
+The result is in ex1.result.

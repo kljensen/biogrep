@@ -1,0 +1,10 @@
+
+ex4.pat contains a single regular expression that searches for lines that
+contain contractions.  ex4.txt is the text "The Right to Read" by Richard
+M. Stallman.  To print lines containing contractions in Stallman's text and
+a single line after the matching line, use the command
+
+prompt> biogrep -p ex4.pat -i ex4.txt -t -A1
+
+The -t tells biogrep that the file is a plain text file and the -A1 tells it
+to print one line after the matching line.
