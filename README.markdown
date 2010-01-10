@@ -18,3 +18,9 @@ sos & Floratos, 1998). These patterns are treated as POSIX
 extended regular expressions and are searched against a user 
 supplied file, which can be either a FastA (Pearson & Lip- 
 man, 1988) formatted biosequence database or any text file.
+
+For more info, read this [Biogrep documentation](http://cloud.github.com/downloads/kljensen/biogrep/biogrep.pdf).
+
+
+Kyle  
+<kljensen@gmail.com>
